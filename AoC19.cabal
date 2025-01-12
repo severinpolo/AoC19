@@ -142,3 +142,13 @@ executable day1
     import: warnings, common-extensions, build-directives, common-modules
     main-is: day1/Main.hs
     build-depends: multiset
+
+executable day2
+    import: warnings, common-extensions, build-directives, common-modules
+    main-is: day2/Main.hs
+    build-depends: multiset, containers ^>=0.7
+
+executable day3
+    import: warnings, common-extensions, build-directives, common-modules
+    main-is: day3/Main.hs
+    build-depends: multiset, containers ^>=0.7
